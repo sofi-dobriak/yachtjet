@@ -27,10 +27,10 @@
   --background-color: #0e1823;
   --color: #fbfbfb;
 
-  --link-light-bg: rgba(27, 65, 75, 0.5);
-  --link-light-bg-hover: #1b414b;
-  --link-dark-bg: rgba(251, 251, 251, 0.3);
-  --link-dark-bg-hover: #fbfbfb;
+  --link-dark-bg: rgba(27, 65, 75, 0.5);
+  --link-dark-bg-hover: #1b414b;
+  --link-light-bg: rgba(251, 251, 251, 0.3);
+  --link-light-bg-hover: #fbfbfb;
   --link-dark-text-hover: #1b414b;
 
   --icon-light-color: #fbfbfb;
@@ -49,6 +49,9 @@
   --input-border-main-color: rgba(251, 251, 251, 0.2);
   --input-border-main-color-hover: rgba(251, 251, 251, 0.5);
 
+  --main-block-bg: #fbfbfb;
+  --transition: 0.3s ease;
+  --mobile-backdrop: rgba(0, 0, 0, 0.5)
 }
 
 
@@ -56,6 +59,7 @@ body {
   font-family: var(--font-family);
   background-color: var(--background-color);
   color: var(--color);
+  height: 100vh;
 }
 
 .visually-hidden {

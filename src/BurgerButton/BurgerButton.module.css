@@ -1,0 +1,50 @@
+.menuButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  position: relative;
+}
+
+.burgerIcon,
+.closeIcon {
+  position: absolute;
+  transition: all var(--transition);
+
+
+}
+
+.burgerIcon {
+  fill: none;
+  stroke: var(--icon-dark-color);
+  transform: rotate(0deg);
+  opacity: 1;
+
+  &:hover,
+  &:focus {
+    stroke: var(--icon-dark-color-hover)
+  }
+
+  &.hidden {
+    transform: rotate(180deg);
+    opacity: 0;
+  }
+}
+
+.closeIcon {
+  fill: var(--icon-dark-color);
+  transform: rotate(-180deg);
+  opacity: 0;
+
+  &:hover,
+  &:focus {
+    fill: var(--icon-dark-color-hover)
+  }
+
+  &.visible {
+    transform: rotate(0deg);
+    opacity: 1;
+  }
+}
