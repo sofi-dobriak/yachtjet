@@ -27,22 +27,22 @@ const AboutUsSection = () => {
           <source
             media='(min-width:1440px)'
             type='image/webp'
-            srcSet='/images/about/xl-about-img.webp 1x, /images/about/xl-about-img@2x.webp 2x'
+            srcSet='/images/about/lg-about-img.webp 1x, /images/about/lg-about-img@2x.webp 2x'
           />
           <source
             media='(min-width:1440px)'
             type='image/png'
-            srcSet='/images/about/xl-about-img.png 1x, /images/about/xl-about-img@2x.png 2x'
+            srcSet='/images/about/lg-about-img.png 1x, /images/about/lg-about-img@2x.png 2x'
           />
           <source
             media='(min-width:1280px)'
             type='image/webp'
-            srcSet='/images/about/lg-about-img.webp 1x, /images/about/lg-about-img@2x.webp 2x'
+            srcSet='/images/about/xl-about-img.webp 1x, /images/about/xl-about-img@2x.webp 2x'
           />
           <source
             media='(min-width:1280px)'
             type='image/png'
-            srcSet='/images/about/lg-about-img.png 1x, /images/about/lg-about-img@2x.png 2x'
+            srcSet='/images/about/xl-about-img.png 1x, /images/about/xl-about-img@2x.png 2x'
           />
           <source
             media='(min-width:767px)'

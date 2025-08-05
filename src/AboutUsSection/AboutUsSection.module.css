@@ -1,7 +1,6 @@
 .aboutTextContainer {
   border-radius: 24px;
-  padding: 40px 20px;
-  padding-bottom: 336px;
+  padding: 40px 20px 336px;
   background: #fbfbfb;
 }
 
@@ -35,6 +34,10 @@
 }
 
 @media screen and (min-width:768px) {
+  .aboutTextContainer {
+    padding: 50px 32px 244px;
+  }
+
   .aboutTitle {
     font-size: 48px;
     margin-bottom: 50px;
@@ -53,11 +56,15 @@
   }
 
   .aboutImage {
-    margin-top: -286px;
+    margin-top: -194px;
   }
 }
 
 @media screen and (min-width:1280px) {
+  .aboutTextContainer {
+    padding: 50px 50px 416px;
+  }
+
   .aboutTextContainer {
     display: flex;
     align-items: start;
@@ -69,6 +76,6 @@
   }
 
   .aboutImage {
-    margin-top: -236px;
+    margin-top: -316px;
   }
 }
