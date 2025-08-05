@@ -8,9 +8,8 @@
   transform: translateX(-50%);
   top: 20px;
   max-width: 335px;
-  padding: 12px 20px;
+  padding: 0 20px;
   z-index: 1000;
-
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -21,13 +20,14 @@
   font-size: 14px;
   letter-spacing: -0.03em;
   color: var(--link-dark-text-hover);
+  padding: 12px 0;
 }
 
 @media screen and (min-width:768px) {
   .header {
     width: calc(100% - 76px);
     max-width: 704px;
-    padding: 4px 28px;
+    padding: 0 28px;
   }
 
   .logo {

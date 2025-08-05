@@ -1,7 +1,56 @@
-// import s from './Navigation.module.css';
+import clsx from 'clsx';
+import s from './Navigation.module.css';
 
 const Navigation = () => {
-  return <div>Navigation</div>;
+  return (
+    <>
+      <ul className={clsx(s.navMenuLinkList)}>
+        <li className={clsx(s.navMenuItem)}>
+          <a href='#about' className={clsx(s.navMenuLink)}>
+            About
+          </a>
+        </li>
+        <li className={clsx(s.navMenuItem)}>
+          <a href='#yachts' className={clsx(s.navMenuLink)}>
+            Yachts
+          </a>
+        </li>
+        <li className={clsx(s.navMenuItem)}>
+          <a href='#reviews' className={clsx(s.navMenuLink)}>
+            Reviews
+          </a>
+        </li>
+      </ul>
+
+      <ul className={clsx(s.navMenuSocialList)}>
+        <li>
+          <a
+            href='https://www.instagram.com/'
+            target='_blank'
+            className={clsx(s.navMenuSocialLink)}
+          >
+            <svg width={24} height={24} className={clsx(s.navMenuSocialIcon)}>
+              <use href='/images/icons.svg#icon-inst'></use>
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a href='https://www.youtube.com/' target='_blank' className={clsx(s.navMenuSocialLink)}>
+            <svg width={24} height={24} className={clsx(s.navMenuSocialIcon)}>
+              <use href='/images/icons.svg#icon-youtube'></use>
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a href='https://www.facebook.com/' target='_blank' className={clsx(s.navMenuSocialLink)}>
+            <svg width={24} height={24} className={clsx(s.navMenuSocialIcon)}>
+              <use href='/images/icons.svg#icon-fb'></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </>
+  );
 };
 
 export default Navigation;

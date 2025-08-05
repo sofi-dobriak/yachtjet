@@ -1,0 +1,47 @@
+.navMenuLinkList {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+}
+
+.navMenuLink {
+  background-color: var(--link-light-bg);
+  border-radius: 8px;
+  padding: 16px 24px;
+  font-size: 10px;
+  line-height: 1.3;
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--main-text-color);
+  display: block;
+  transition: all var(--transition);
+
+  &:hover,
+  &:focus {
+    background-color: var(--link-dark-bg-hover);
+  }
+}
+
+.navMenuSocialList {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.navMenuSocialLink {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 0;
+}
+
+.navMenuSocialIcon {
+  fill: var(--icon-dark-color);
+  transition: all var(--transition);
+
+  &:hover,
+  &:focus {
+    fill: var(--icon-dark-color-hover)
+  }
+}

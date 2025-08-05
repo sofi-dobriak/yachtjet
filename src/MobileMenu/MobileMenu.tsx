@@ -1,12 +1,30 @@
 import clsx from 'clsx';
 import s from './MobileMenu.module.css';
 import { UseMobileMenu } from '../zustand/mobileMenu';
+import { useEffect } from 'react';
 
 const MobileMenu = () => {
   const { isOpen, closeMobileMenu } = UseMobileMenu();
 
+  useEffect(() => {
+    const handleKeyPress = (event: KeyboardEvent) => {
+      if (event.key === 'Escape') {
+        closeMobileMenu();
+      }
+    };
+
+    window.addEventListener('keydown', handleKeyPress);
+    return () => window.removeEventListener('keydown', handleKeyPress);
+  }, [closeMobileMenu]);
+
+  const handleBackDropClick = (e: React.MouseEvent<HTMLDivElement>) => {
+    if (e.target === e.currentTarget) {
+      closeMobileMenu();
+    }
+  };
+
   return (
-    <div className={clsx(s.mobileBackdrop, isOpen && s.visible)}>
+    <div className={clsx(s.mobileBackdrop, isOpen && s.visible)} onClick={handleBackDropClick}>
       <div className={clsx(s.mobileMenu)}>
         <ul className={clsx(s.mobileMenuLinkList)}>
           <li className={clsx(s.mobileMenuItem)}>
@@ -29,7 +47,7 @@ const MobileMenu = () => {
         <ul className={clsx(s.mobileMenuSocialList)}>
           <li>
             <a
-              href='http://inst'
+              href='https://www.instagram.com/'
               target='_blank'
               className={clsx(s.mobileMenuSocialLink)}
               onClick={closeMobileMenu}
@@ -41,7 +59,7 @@ const MobileMenu = () => {
           </li>
           <li>
             <a
-              href='http://youtube'
+              href='https://www.youtube.com/'
               target='_blank'
               className={clsx(s.mobileMenuSocialLink)}
               onClick={closeMobileMenu}
@@ -53,7 +71,7 @@ const MobileMenu = () => {
           </li>
           <li>
             <a
-              href='http://fb'
+              href='https://www.facebook.com/'
               target='_blank'
               className={clsx(s.mobileMenuSocialLink)}
               onClick={closeMobileMenu}

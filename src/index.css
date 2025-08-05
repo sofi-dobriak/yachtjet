@@ -25,11 +25,14 @@
 :root {
   --font-family: "Inter", sans-serif;
   --background-color: #0e1823;
-  --color: #fbfbfb;
+  --main-text-color: #fbfbfb;
+  --main-dark-text-color: #1b414b;
+  --secondary-color: rgba(251, 251, 251, 0.7);
+  --secondary-dark-color: #040306;
 
   --link-dark-bg: rgba(27, 65, 75, 0.5);
   --link-dark-bg-hover: #1b414b;
-  --link-light-bg: rgba(251, 251, 251, 0.3);
+  --link-light-bg: rgba(27, 65, 75, 0.5);
   --link-light-bg-hover: #fbfbfb;
   --link-dark-text-hover: #1b414b;
 
@@ -50,16 +53,22 @@
   --input-border-main-color-hover: rgba(251, 251, 251, 0.5);
 
   --main-block-bg: #fbfbfb;
-  --transition: 0.3s ease;
+  --transition: 0.25s ease;
   --mobile-backdrop: rgba(0, 0, 0, 0.5)
 }
 
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
 
 body {
   font-family: var(--font-family);
   background-color: var(--background-color);
-  color: var(--color);
+  color: var(--main-text-color);
   height: 100vh;
+  margin: 0;
+  padding: 0;
 }
 
 .visually-hidden {
@@ -122,6 +131,7 @@ address {
 
 section {
   padding-bottom: 80px;
+  scroll-margin-top: 80px;
 }
 
 @media screen and (min-width: 768px) {

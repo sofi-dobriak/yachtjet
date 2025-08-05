@@ -1,0 +1,74 @@
+.aboutTextContainer {
+  border-radius: 24px;
+  padding: 40px 20px;
+  padding-bottom: 336px;
+  background: #fbfbfb;
+}
+
+.aboutTitle {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: var(--main-dark-text-color);
+  margin-bottom: 40px;
+}
+
+.aboutDescription {
+  font-size: 18px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: var(--main-dark-text-color);
+  margin-bottom: 20px;
+}
+
+.aboutSecondaryText {
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: -0.02em;
+  color: var(--secondary-dark-color);
+  opacity: 0.4;
+}
+
+.aboutImage {
+  margin-top: -296px;
+}
+
+@media screen and (min-width:768px) {
+  .aboutTitle {
+    font-size: 48px;
+    margin-bottom: 50px;
+    max-width: 536px;
+  }
+
+  .aboutDescription {
+    font-size: 24px;
+    max-width: 390px;
+  }
+
+  .aboutSecondaryText {
+    font-size: 13px;
+    line-height: 1.15;
+    max-width: 385px;
+  }
+
+  .aboutImage {
+    margin-top: -286px;
+  }
+}
+
+@media screen and (min-width:1280px) {
+  .aboutTextContainer {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+  }
+
+  .aboutTitle {
+    margin-bottom: 0;
+  }
+
+  .aboutImage {
+    margin-top: -236px;
+  }
+}

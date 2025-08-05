@@ -12,8 +12,6 @@
 .closeIcon {
   position: absolute;
   transition: all var(--transition);
-
-
 }
 
 .burgerIcon {
