@@ -2,6 +2,7 @@ import AboutUsSection from './AboutUsSection/AboutUsSection';
 import Header from './Header/Header';
 import HeroSection from './HeroSection/HeroSection';
 import MobileMenu from './MobileMenu/MobileMenu';
+import YachtsSection from './YactsSection/YachtsSection';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Header />
       <HeroSection />
       <AboutUsSection />
+      <YachtsSection />
       <MobileMenu />
     </>
   );

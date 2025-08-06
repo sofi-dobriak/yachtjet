@@ -1,7 +1,10 @@
 .aboutTextContainer {
   border-radius: 24px;
-  padding: 40px 20px 336px;
   background: #fbfbfb;
+}
+
+.aboutTextContainer {
+  padding: 40px 20px 80px;
 }
 
 .aboutTitle {
@@ -30,12 +33,12 @@
 }
 
 .aboutImage {
-  margin-top: -296px;
+  margin-top: -40px;
 }
 
 @media screen and (min-width:768px) {
   .aboutTextContainer {
-    padding: 50px 32px 244px;
+    padding: 40px 20px 100px;
   }
 
   .aboutTitle {
@@ -56,13 +59,13 @@
   }
 
   .aboutImage {
-    margin-top: -194px;
+    margin-top: -50px;
   }
 }
 
 @media screen and (min-width:1280px) {
   .aboutTextContainer {
-    padding: 50px 50px 416px;
+    padding: 50px 50px 200px;
   }
 
   .aboutTextContainer {
@@ -76,6 +79,6 @@
   }
 
   .aboutImage {
-    margin-top: -316px;
+    margin-top: -100px;
   }
 }

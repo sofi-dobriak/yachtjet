@@ -54,7 +54,8 @@
 
   --main-block-bg: #fbfbfb;
   --transition: 0.25s ease;
-  --mobile-backdrop: rgba(0, 0, 0, 0.5)
+  --mobile-backdrop: rgba(0, 0, 0, 0.5);
+  --card-border-color: rgba(4, 3, 6, 0.1);
 }
 
 * {
