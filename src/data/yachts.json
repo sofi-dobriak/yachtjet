@@ -28,7 +28,7 @@
     "price": "€23,210,000",
     "images": {
       "normal": {
-        "png": "../images/gallery/gallery-benetti-img.png",
+        "png": "/images/gallery/gallery-benetti-img.png",
         "webp": "/images/gallery/gallery-benetti-img.webp"
       },
       "retina": {
@@ -47,7 +47,7 @@
     "price": "€21,000,000",
     "images": {
       "normal": {
-        "png": "../images/gallery/gallery-belle-img.png",
+        "png": "/images/gallery/gallery-belle-img.png",
         "webp": "/images/gallery/gallery-belle-img.webp"
       },
       "retina": {

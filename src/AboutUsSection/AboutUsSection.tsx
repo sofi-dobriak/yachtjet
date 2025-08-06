@@ -45,12 +45,12 @@ const AboutUsSection = () => {
             srcSet='/images/about/xl-about-img.png 1x, /images/about/xl-about-img@2x.png 2x'
           />
           <source
-            media='(min-width:767px)'
+            media='(min-width:768px)'
             type='image/webp'
             srcSet='/images/about/md-about-img.webp 1x, /images/about/md-about-img@2x.webp 2x'
           />
           <source
-            media='(min-width:767px)'
+            media='(min-width:768px)'
             type='image/png'
             srcSet='/images/about/md-about-img.png 1x, /images/about/md-about-img@2x.png 2x'
           />

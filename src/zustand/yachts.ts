@@ -1,16 +1,14 @@
 import { create } from 'zustand';
-import yachtsData from '../../public/data/yachts.json';
+import yachtsData from '../data/yachts.json';
 
-interface NormalImage {
+interface Image {
   png: string;
   webp: string;
 }
 
-type RetinaImage = NormalImage;
-
 interface ImageData {
-  normal: NormalImage;
-  retina: RetinaImage;
+  normal: Image;
+  retina: Image;
 }
 
 export interface YachtsData {

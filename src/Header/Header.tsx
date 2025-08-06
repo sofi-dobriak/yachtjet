@@ -1,9 +1,9 @@
 import clsx from 'clsx';
 import s from './Header.module.css';
-import Container from '../Container/Container';
 import BurgerButton from '../BurgerButton/BurgerButton';
 import { useMediaQuery } from 'react-responsive';
 import Navigation from '../Navigation/Navigation';
+import Container from '../Container/Container';
 
 const Header = () => {
   const isMobile = useMediaQuery({ maxWidth: 768 });

@@ -1,6 +1,6 @@
 import clsx from 'clsx';
-import Container from '../Container/Container';
 import s from './HeroSection.module.css';
+import Container from '../Container/Container';
 
 const HeroSection = () => {
   return (
