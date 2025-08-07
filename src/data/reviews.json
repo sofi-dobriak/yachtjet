@@ -40,5 +40,117 @@
         "webp": "/images/reviews/review-greg-img@2x.webp"
       }
     }
+  },
+  {
+    "name": "Mark Robertson",
+    "review": "We chartered the Beneteau Oceanis 51.1 for a sailing trip with friends, and it was an incredible experience. The yacht handled beautifully, and the interior was surprisingly spacious and modern.",
+    "images": {
+      "normal": {
+        "png": "/images/reviews/review-mark-img.png",
+        "webp": "/images/reviews/review-mark-img.webp"
+      },
+      "retina": {
+        "png": "/images/reviews/review-mark-img@2x.png",
+        "webp": "/images/reviews/review-mark-img@2x.webp"
+      }
+    }
+  },
+  {
+    "name": "Emily White",
+    "review": "Our family holiday on the Arrow was pure bliss. The yacht felt like a floating villa, with so much space for everyone to relax. The crew was fantastic and made sure all our needs were met.",
+    "images": {
+      "normal": {
+        "png": "/images/reviews/review-emily-img.png",
+        "webp": "/images/reviews/review-emily-img.webp"
+      },
+      "retina": {
+        "png": "/images/reviews/review-emily-img@2x.png",
+        "webp": "/images/reviews/review-emily-img@2x.webp"
+      }
+    }
+  },
+  {
+    "name": "David Chen",
+    "review": "The Collu was an excellent choice for our corporate retreat. It had all the luxury amenities and plenty of room for meetings and social events. The staff was professional and discreet.",
+    "images": {
+      "normal": {
+        "png": "/images/reviews/review-david-img.png",
+        "webp": "/images/reviews/review-david-img.webp"
+      },
+      "retina": {
+        "png": "/images/reviews/review-david-img@2x.png",
+        "webp": "/images/reviews/review-david-img@2x.webp"
+      }
+    }
+  },
+  {
+    "name": "Sarah Miller",
+    "review": "We chose the Belle for our anniversary trip, and it exceeded all expectations. The open-plan living area was amazing, and we loved the spacious deck for sunbathing. It was the perfect romantic escape.",
+    "images": {
+      "normal": {
+        "png": "/images/reviews/review-sarah-img.png",
+        "webp": "/images/reviews/review-sarah-img.webp"
+      },
+      "retina": {
+        "png": "/images/reviews/review-sarah-img@2x.png",
+        "webp": "/images/reviews/review-sarah-img@2x.webp"
+      }
+    }
+  },
+  {
+    "name": "Alex Johnson",
+    "review": "Renting the Benetti was a dream come true. The yacht was stunning, with elegant interiors and all the latest technology. The crew was top-notch, providing impeccable service throughout our journey.",
+    "images": {
+      "normal": {
+        "png": "/images/reviews/review-alex-img.png",
+        "webp": "/images/reviews/review-alex-img.webp"
+      },
+      "retina": {
+        "png": "/images/reviews/review-alex-img@2x.png",
+        "webp": "/images/reviews/review-alex-img@2x.webp"
+      }
+    }
+  },
+  {
+    "name": "James Wilson",
+    "review": "The Ellen was a fantastic option for our sailing adventure. It was easy to handle and very comfortable below deck. Great value for a high-quality sailing yacht. We had a blast!",
+    "images": {
+      "normal": {
+        "png": "/images/reviews/review-james-img.png",
+        "webp": "/images/reviews/review-james-img.webp"
+      },
+      "retina": {
+        "png": "/images/reviews/review-james-img@2x.png",
+        "webp": "/images/reviews/review-james-img@2x.webp"
+      }
+    }
+  },
+  {
+    "name": "Isabella Rodriguez",
+    "review": "Our week on the Mirage was unforgettable. The yacht's design is beautiful and the flybridge was our favorite spot to watch the sunsets. The perfect setting for making lasting memories.",
+    "images": {
+      "normal": {
+        "png": "/images/reviews/review-isabella-img.png",
+        "webp": "/images/reviews/review-isabella-img.webp"
+      },
+      "retina": {
+        "png": "/images/reviews/review-isabella-img@2x.png",
+        "webp": "/images/reviews/review-isabella-img@2x.webp"
+      }
+    }
+  },
+  {
+    "name": "Michael Brown",
+    "review": "The Storm was absolutely breathtaking. From the luxurious cabins to the spacious outdoor areas, every detail was perfect. It was the ultimate way to celebrate my birthday with friends. Worth every penny.",
+    "images": {
+      "normal": {
+        "png": "/images/reviews/review-michael-img.png",
+        "webp": "/images/reviews/review-michael-img.webp"
+      },
+      "retina": {
+        "png": "/images/reviews/review-michael-img@2x.png",
+        "webp": "/images/reviews/review-michael-img@2x.webp"
+      }
+    }
   }
 ]

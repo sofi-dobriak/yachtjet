@@ -16,7 +16,7 @@ export interface YachtsData {
   category: string;
   length: string;
   shipyard: string;
-  built: number;
+  built: string;
   guests: string;
   price: string;
   images: ImageData;
@@ -26,8 +26,8 @@ interface YachtsStore {
   yachts: YachtsData[];
 }
 
-const useReviewsStore = create<YachtsStore>(() => ({
+const useYachtsStore = create<YachtsStore>(() => ({
   yachts: yachtsData,
 }));
 
-export default useReviewsStore;
+export default useYachtsStore;

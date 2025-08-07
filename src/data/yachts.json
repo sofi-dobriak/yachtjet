@@ -1,10 +1,10 @@
 [
   {
     "name": "Arrow",
-    "category": "LUXURY YAHTS",
+    "category": "LUXURY YACHTS",
     "length": "48m(155ft)",
     "shipyard": "Admiral",
-    "built": 2021,
+    "built": "2021",
     "guests": "11 in 5 cabins",
     "price": "€33,500,000",
     "images": {
@@ -20,10 +20,10 @@
   },
   {
     "name": "BENETTI OASIS 40M BO122",
-    "category": "LUXURY YAHTS",
+    "category": "LUXURY YACHTS",
     "length": "41m (133ft)",
     "shipyard": "Benetti",
-    "built": 2025,
+    "built": "2025",
     "guests": "10 in 5 cabins",
     "price": "€23,210,000",
     "images": {
@@ -39,10 +39,10 @@
   },
   {
     "name": "BELLE ANNA",
-    "category": "LUXURY YAHTS",
-    "length": "50m(155ft) ",
+    "category": "LUXURY YACHTS",
+    "length": "50m(155ft)",
     "shipyard": "ISA",
-    "built": 2012,
+    "built": "2012",
     "guests": "12 in 6 cabins",
     "price": "€21,000,000",
     "images": {
@@ -53,6 +53,120 @@
       "retina": {
         "png": "/images/gallery/gallery-belle-img@2x.png",
         "webp": "/images/gallery/gallery-belle-img@2x.webp"
+      }
+    }
+  },
+  {
+    "name": "Ellen",
+    "category": "LUXURY YACHTS",
+    "length": "40m (132ft)",
+    "shipyard": "Perini Navi",
+    "built": "2016",
+    "guests": "9 in 4 cabins",
+    "price": "€9,300,000",
+    "images": {
+      "normal": {
+        "png": "/images/gallery/gallery-ellen-img.png",
+        "webp": "/images/gallery/gallery-ellen-img.webp"
+      },
+      "retina": {
+        "png": "/images/gallery/gallery-ellen-img@2x.png",
+        "webp": "/images/gallery/gallery-ellen-img@2x.webp"
+      }
+    }
+  },
+  {
+    "name": "MIRAGE 401",
+    "category": "LUXURY YACHTS",
+    "length": "38m (125ft)",
+    "shipyard": "Gianetti",
+    "built": "2024",
+    "guests": "10 in 5 cabins",
+    "price": "€13,500,000",
+    "images": {
+      "normal": {
+        "png": "/images/gallery/gallery-mirage-img.png",
+        "webp": "/images/gallery/gallery-mirage-img.webp"
+      },
+      "retina": {
+        "png": "/images/gallery/gallery-mirage-img@2x.png",
+        "webp": "/images/gallery/gallery-mirage-img@2x.webp"
+      }
+    }
+  },
+  {
+    "name": "KING",
+    "category": "LUXURY YACHTS",
+    "length": "33m (109ft)",
+    "shipyard": "Overmarine",
+    "built": "2018",
+    "guests": "9 in 4 cabins",
+    "price": "€1,850,000",
+    "images": {
+      "normal": {
+        "png": "/images/gallery/gallery-king-img.png",
+        "webp": "/images/gallery/gallery-king-img.webp"
+      },
+      "retina": {
+        "png": "/images/gallery/gallery-king-img@2x.png",
+        "webp": "/images/gallery/gallery-king-img@2x.webp"
+      }
+    }
+  },
+  {
+    "name": "SALT",
+    "category": "LUXURY YACHTS",
+    "length": "32m (105ft)",
+    "shipyard": "SanLorenzo",
+    "built": "2019",
+    "guests": "11 in 5 cabins",
+    "price": "€7,800,000",
+    "images": {
+      "normal": {
+        "png": "/images/gallery/gallery-salt-img.png",
+        "webp": "/images/gallery/gallery-salt-img.webp"
+      },
+      "retina": {
+        "png": "/images/gallery/gallery-salt-img@2x.png",
+        "webp": "/images/gallery/gallery-salt-img@2x.webp"
+      }
+    }
+  },
+  {
+    "name": "STORM",
+    "category": "LUXURY YACHTS",
+    "length": "32m (103ft)",
+    "shipyard": "Overmarine",
+    "built": "2022",
+    "guests": "9 in 4 cabins",
+    "price": "€2,900,000",
+    "images": {
+      "normal": {
+        "png": "/images/gallery/gallery-storm-img.png",
+        "webp": "/images/gallery/gallery-storm-img.webp"
+      },
+      "retina": {
+        "png": "/images/gallery/gallery-storm-img@2x.png",
+        "webp": "/images/gallery/gallery-storm-img@2x.webp"
+      }
+    }
+  },
+  {
+    "name": "COLLU",
+    "category": "LUXURY YACHTS",
+    "length": "29m (96ft)",
+    "shipyard": "Ferretti",
+    "built": "2014",
+    "guests": "10 in 5 cabins",
+    "price": "$4,300,000",
+    "images": {
+      "normal": {
+        "png": "/images/gallery/gallery-collu-img.png",
+        "webp": "/images/gallery/gallery-collu-img.webp"
+      },
+      "retina": {
+        "png": "/images/gallery/gallery-collu-img@2x.png",
+        "webp": "/images/gallery/gallery-collu-img@2x.webp"
       }
     }
   }

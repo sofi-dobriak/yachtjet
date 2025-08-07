@@ -57,6 +57,7 @@
   --transition: 0.25s ease;
   --mobile-backdrop: rgba(0, 0, 0, 0.5);
   --card-border-color: rgba(4, 3, 6, 0.1);
+  --review-text-color: rgba(4, 3, 6, 0.4);
   --card-border-secondary-color: rgba(251, 251, 251, 0.1);
 }
 

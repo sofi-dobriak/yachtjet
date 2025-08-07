@@ -1,0 +1,30 @@
+.reviewerImage {
+  width: 56px;
+  height: 56px;
+  margin: 0 auto 24px;
+}
+
+.reviewerName {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: var(--secondary-dark-color);
+  margin-bottom: 8px;
+}
+
+.reviewerText {
+  font-size: 16px;
+  line-height: 1.4;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: var(--review-text-color);
+  max-width: 304px;
+}
+
+@media screen and (min-width:1280px) {
+  .reviewerText {
+    max-width: 320px;
+  }
+}
