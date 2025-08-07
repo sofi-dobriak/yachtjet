@@ -21,6 +21,7 @@
   text-align: center;
   color: var(--review-text-color);
   max-width: 304px;
+  margin: auto;
 }
 
 @media screen and (min-width:1280px) {

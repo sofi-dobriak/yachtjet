@@ -1,5 +1,6 @@
 import AboutUsSection from './components/AboutUsSection/AboutUsSection';
 import AdvantagesSection from './components/AdvantagesSection/AdvantagesSection';
+import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
 import HeroSection from './components/HeroSection/HeroSection';
 import MobileMenu from './components/MobileMenu/MobileMenu';
@@ -15,6 +16,7 @@ function App() {
       <YachtsSection />
       <AdvantagesSection />
       <ReviewsSection />
+      <Footer />
       <MobileMenu />
     </>
   );
