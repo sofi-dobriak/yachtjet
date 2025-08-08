@@ -1,5 +1,5 @@
 # ⛵️ YachtJet — Promotional Landing Page
-Green Harvest is a responsive landing page for an organic store, created with a focus on visual aesthetics, accessibility, and mobile optimization.
+YachtJet is a sleek and responsive landing page for luxury yacht adventures, designed with a focus on visual storytelling, smooth navigation, and mobile-first performance.
 
 ## ✨ Main features:
 - Modern responsive design (mobile-first)
