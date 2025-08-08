@@ -37,9 +37,8 @@ const Modal = () => {
         </button>
         <h2 className={clsx(s.modalTitle)}>Thank you!</h2>
         <p className={clsx(s.modalText)}>
-          Thank you for choosing Yacht Adventures, your booking details have been received and our
-          team will be in touch shortly to confirm your reservation and provide any additional
-          information or assistance you may need.
+          Thank you for choosing Yacht Adventures! Your booking details have been received and our
+          team will be in touch shortly to confirm your reservation.
         </p>
       </div>
     </div>

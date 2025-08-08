@@ -6,16 +6,16 @@
   margin-bottom: 40px;
 }
 
-.rentTitleFormContainer {
-  margin: 0 auto;
-  min-width: 474px;
-}
-
 .rentImage {
   border-radius: 24px;
 }
 
 @media screen and (min-width:768px) {
+  .rentTitleFormContainer {
+    margin: 0 auto;
+    max-width: 474px;
+  }
+
   .rentTitle {
     font-size: 28px;
     margin-bottom: 50px;
@@ -28,6 +28,10 @@
     align-items: start;
     flex-direction: row-reverse;
     justify-content: space-between;
+  }
+
+  .rentTitleFormContainer {
+    min-width: 474px;
   }
 
 }
