@@ -29,9 +29,8 @@ const ReviewsSection = () => {
           slidesPerGroup={1}
           modules={[Navigation, Mousewheel]}
           breakpoints={{
-            768: { slidesPerView: 2, slidesPerGroup: 2 },
-            1280: { slidesPerView: 3, slidesPerGroup: 3 },
-            1440: { slidesPerView: 3, slidesPerGroup: 3 },
+            768: { slidesPerView: 2 },
+            1280: { slidesPerView: 3 },
           }}
           wrapperTag='ul'
           className={clsx('custom-swiper')}

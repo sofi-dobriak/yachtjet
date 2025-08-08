@@ -1,0 +1,108 @@
+.rentForm {
+  margin-bottom: 80px;
+}
+
+.inputErrorTextContainer {
+  margin-bottom: 28px;
+  position: relative;
+  width: 100%;
+  max-width: 336px;
+
+  &:last-of-type {
+    margin-bottom: 40px;
+  }
+}
+
+
+.rentFormInput {
+  padding: 14px 18px;
+  width: 100%;
+  max-width: 336px;
+  border: 1px solid var(--input-border-main-color);
+  border-radius: 12px;
+  background-color: transparent;
+  color: var(--main-text-color);
+  font-size: 14px;
+  line-height: 1.28;
+  transition: all var(--transition);
+
+
+  &::placeholder {
+    font-size: 12px;
+    line-height: 1.17;
+    color: var(--police-text-color);
+  }
+
+  &:hover,
+  &:focus {
+    outline: none;
+    border-color: var(--input-border-main-color-hover)
+  }
+}
+
+.rentFormComment {
+  display: block;
+  resize: none;
+  min-height: 108px;
+}
+
+.errorMessage {
+  position: absolute;
+  bottom: -16px;
+  left: 12px;
+  font-size: 12px;
+  color: var(--error-text-color);
+}
+
+.rentFormButton {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28;
+  letter-spacing: -0.02em;
+  border-radius: 16px;
+  min-width: 122px;
+  height: 46px;
+  background-color: var(--button-main-bg);
+  color: var(--button-main-bg-hover);
+  border: none;
+  transition: all var(--transition);
+
+  &:hover,
+  &:focus {
+    color: var(--button-main-text-hover);
+    background-color: var(--button-main-text);
+  }
+}
+
+@media screen and (min-width:768px) {
+  .rentForm {
+    margin-bottom: 50px;
+  }
+
+  .inputErrorTextContainer,
+  .rentFormInput {
+    max-width: 474px;
+  }
+
+  .rentFormInput {
+    font-size: 14px;
+    line-height: 1.28;
+    padding: 18px;
+  }
+
+  .inputErrorTextContainer {
+    &:last-of-type {
+      margin-bottom: 50px;
+    }
+  }
+
+  .rentFormButton {
+    font-size: 18px;
+    line-height: 1.1;
+    min-width: 164px;
+  }
+}
+
+@media screen and (min-width:1280px) {}
+
+@media screen and (min-width:1440px) {}

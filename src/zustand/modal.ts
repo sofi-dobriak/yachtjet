@@ -1,18 +1,18 @@
 import { create } from 'zustand';
 
-interface UseMobileMenu {
+interface UseModal {
   isOpen: boolean;
-  openMobileMenu: () => void;
-  closeMobileMenu: () => void;
+  openModal: () => void;
+  closeModal: () => void;
 }
 
-export const UseMobileMenu = create<UseMobileMenu>(set => ({
+export const UseModal = create<UseModal>(set => ({
   isOpen: false,
-  openMobileMenu: () => {
+  openModal: () => {
     set({ isOpen: true });
     document.body.style.overflow = 'hidden';
   },
-  closeMobileMenu: () => {
+  closeModal: () => {
     set({ isOpen: false });
     document.body.style.overflow = 'auto';
   },
