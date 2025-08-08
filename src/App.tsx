@@ -9,6 +9,7 @@ import RentSection from './components/RentSection/RentSection';
 import ReviewsSection from './components/ReviewsSection/ReviewsSection';
 import YachtsSection from './components/YachtsSection/YachtsSection';
 import Modal from './components/Modal/Modal';
+import BackToTop from './components/BackToTop/BackToTop';
 
 function App() {
   const isDesktop: boolean = useMediaQuery({ minWidth: 1280 });
@@ -28,6 +29,7 @@ function App() {
 
       {!isDesktop && <MobileMenu />}
       <Modal />
+      <BackToTop />
     </>
   );
 }

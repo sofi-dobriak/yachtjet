@@ -1,0 +1,52 @@
+.backToTopButton {
+  background-color: var(--link-dark-bg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgb(210, 210, 210);
+  padding: 6px;
+  position: fixed;
+  bottom: 40px;
+  right: 20px;
+  border-radius: 50%;
+  z-index: 600;
+  transition: all var(--transition);
+  opacity: 0;
+  pointer-events: none;
+  animation: slide-top 1s linear 2s infinite alternate both;
+
+  &.visible {
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+  &:hover,
+  &:focus {
+    background-color: var(--secondary-block-bg);
+  }
+}
+
+.backToTopIcon {
+  font-size: 36px;
+  color: var(--icon-light-color);
+}
+
+@keyframes slide-top {
+  0% {
+    transform: translateY(-5px);
+  }
+
+  100% {
+    transform: translateY(5px);
+  }
+}
+
+@media screen and (min-width:1280px) {
+  .backToTopButton {
+    right: 60px;
+  }
+
+  .backToTopIcon {
+    font-size: 40px;
+  }
+}
