@@ -27,7 +27,7 @@ YachtJet is a sleek and responsive landing page for luxury yacht adventures, des
 
 ## 💻 My other projects
 
-### 🔎📷 Green Harvest — Landing Page
+### 🌿 Green Harvest — Landing Page
 
 [Demo](https://green-harvest-jet.vercel.app/) |
 [Github](https://github.com/sofi-dobriak/green-harvest)
