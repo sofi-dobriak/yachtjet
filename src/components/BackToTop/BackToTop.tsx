@@ -25,6 +25,7 @@ const BackToTop = () => {
       type='button'
       className={clsx(s.backToTopButton, isScroll && s.visible)}
       onClick={handleScroll}
+      aria-label='Button for back to top of the page'
     >
       <IoIosArrowUp className={clsx(s.backToTopIcon)} />
     </button>
