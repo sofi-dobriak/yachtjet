@@ -8,6 +8,7 @@ import MobileMenu from './components/MobileMenu/MobileMenu';
 import RentSection from './components/RentSection/RentSection';
 import ReviewsSection from './components/ReviewsSection/ReviewsSection';
 import YachtsSection from './components/YachtsSection/YachtsSection';
+import Modal from './components/Modal/Modal';
 
 function App() {
   const isDesktop: boolean = useMediaQuery({ minWidth: 1280 });
@@ -26,6 +27,7 @@ function App() {
       <Footer />
 
       {!isDesktop && <MobileMenu />}
+      <Modal />
     </>
   );
 }
